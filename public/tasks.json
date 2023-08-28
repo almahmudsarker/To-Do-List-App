@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Design UI",
+    "description": "Create wireframes and mockups for the user interface.",
+    "status": "todo"
+  },
+  {
+    "id": 2,
+    "title": "Develop Backend",
+    "description": "Set up the server and API endpoints for the application.",
+    "status": "doing"
+  },
+  {
+    "id": 3,
+    "title": "Implement Drag-and-Drop",
+    "description": "Add drag-and-drop functionality using a library like react-beautiful-dnd.",
+    "status": "doing"
+  },
+  {
+    "id": 4,
+    "title": "Deploy to Production",
+    "description": "Deploy the application to a live server for testing.",
+    "status": "done"
+  }
+]
