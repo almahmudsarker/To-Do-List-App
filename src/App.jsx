@@ -9,12 +9,11 @@ const App = () => {
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
-    const data = localStorage.getItem("tasks");
-    if (data) {
-      setTasks(JSON.parse(data));
-    }
-  }, [])
-
+    fetch("https://todolist-zf26.onrender.com/tasks")
+      .then((response) => response.json())
+      .then((data) => setTasks(data))
+      .catch((error) => console.log(error));
+  }, []);
 
   return (
     <DndProvider backend={HTML5Backend}>
