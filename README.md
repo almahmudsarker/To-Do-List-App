@@ -10,7 +10,7 @@ The Kanban Board Task Management App helps you manage your tasks efficiently by 
 
 ## Screenshot
 
-![Kanban Board Task Management Screenshot](path/to/screenshot.png)
+![Kanban Board Task Management Screenshot](https://i.ibb.co/Lz7gCMT/1.jpg)
 
 ## Features
 
@@ -45,5 +45,5 @@ Check out the live site [here](https://64ecf1e609029d006cced868--cozy-pika-4464d
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
 
 ## License
-
+![MIT License](https://ibb.co/LN2SZx4)
 This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).

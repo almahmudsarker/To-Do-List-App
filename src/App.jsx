@@ -4,6 +4,7 @@ import ListTasks from "./components/ListTasks";
 import { Toaster } from "react-hot-toast";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
+import Modal from "./components/Modal";
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
@@ -19,6 +20,10 @@ const App = () => {
     <DndProvider backend={HTML5Backend}>
       <Toaster />
       <div className="bg-gray-100 w-screen h-screen flex flex-col p-3 items-center pt-32 gap-16">
+        <h1 className="text-4xl font-bold text-gray-700">
+          Kanban Board Task Management
+        </h1>
+        <Modal />
         <CreateTask tasks={tasks} setTasks={setTasks} />
         <ListTasks tasks={tasks} setTasks={setTasks} />
       </div>
