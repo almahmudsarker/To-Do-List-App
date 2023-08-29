@@ -29,7 +29,7 @@ The Kanban Board Task Management App helps you manage your tasks efficiently by 
 
 ## Live Site
 
-Check out the live site [here](https://64ecf1e609029d006cced868--cozy-pika-4464d1.netlify.app).
+Check out the live site [here](https://64ee5ade2e1b7a382809c3fe--cozy-pika-4464d1.netlify.app).
 
 ## Getting Started
 
