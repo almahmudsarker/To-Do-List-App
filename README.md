@@ -1,6 +1,6 @@
 # Kanban Board Task Management
 
-![: Kanban Board Logo](https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2FuYmFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60)
+![: Kanban Board Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQt8ZRtVFWI61nkChCpnqse9pRvlxve-v3XFYqbWgxiA&s)
 
 Welcome to the : Kanban Board Task Management App! This is a simple task management application built using React, Express, MongoDB, and React DnD (Drag and Drop).
 
@@ -45,5 +45,5 @@ Check out the live site [here](https://64ecf1e609029d006cced868--cozy-pika-4464d
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
 
 ## License
-![MIT License](https://ibb.co/LN2SZx4)
+![MIT License](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBSsZz7c71BiuegdP2iATeg8peXoSbTszLt1oJi2YW0Xn7Gj3HhYQ&usqp=CAE&s)
 This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
