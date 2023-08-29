@@ -1,6 +1,6 @@
 # Kanban Board Task Management
 
-![: Kanban Board Logo](path/to/logo.png)
+![: Kanban Board Logo](https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2FuYmFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60)
 
 Welcome to the : Kanban Board Task Management App! This is a simple task management application built using React, Express, MongoDB, and React DnD (Drag and Drop).
 
