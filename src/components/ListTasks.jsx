@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Section from './Section';
+import './css/list.css'
 
 const ListTasks = ({tasks, setTasks}) => {
 

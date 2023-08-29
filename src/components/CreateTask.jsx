@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { toast } from 'react-hot-toast';
+import './css/create.css'
 const CreateTask = ({tasks, setTasks}) => {
 
     const [task, setTask] = useState({
