@@ -4,7 +4,7 @@ import { toast } from "react-hot-toast";
 const Task = ({ task, tasks, setTasks }) => {
   const [{ isDragging }, drag] = useDrag(() => ({
     type: "task",
-    item: { id: task._id }, // Assuming your task object has an _id field from MongoDB
+    item: { id: task._id },
     collect: (monitor) => ({
       isDragging: !!monitor.isDragging(),
     }),
@@ -12,7 +12,7 @@ const Task = ({ task, tasks, setTasks }) => {
 
   const handleRemove = (id) => {
     fetch(`https://todolist-zf26.onrender.com/tasks/${id}`, {
-      method: "DELETE", // Use the DELETE method for removal
+      method: "DELETE",
     })
       .then(() => {
         const newTasks = tasks.filter((t) => t._id !== id);
@@ -29,7 +29,8 @@ const Task = ({ task, tasks, setTasks }) => {
         isDragging ? "opacity-25" : "opacity-100"
       } rounded-md cursor-grab`}
     >
-      <p>{task.name}</p>
+      <h3 className="text-lg font-semibold mb-2">{task.name}</h3>
+      <p className="text-gray-600">{task.description}</p>
       <button
         className="absolute bottom-1 right-1 text-rose-400"
         onClick={() => handleRemove(task._id)}

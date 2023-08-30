@@ -4,9 +4,10 @@ import './css/create.css'
 const CreateTask = ({tasks, setTasks}) => {
 
     const [task, setTask] = useState({
-        name: "",
-        status: 'todo', 
-    })
+      name: "",
+      description: "",
+      status: "todo",
+    });
 
 
     const handleSubmit = (e) => {
@@ -31,6 +32,7 @@ const CreateTask = ({tasks, setTasks}) => {
           toast.success("Task created successfully");
           setTask({
             name: "",
+            description: "",
             status: "todo",
           });
         })
@@ -49,13 +51,20 @@ const CreateTask = ({tasks, setTasks}) => {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          className="border border-gray-300 rounded-md px-4 py-2 w-80"
+          className="border border-gray-300 rounded-md px-4 py-2 w-80 h-14 mt-7"
+          placeholder="Title"
           value={task.name}
           onChange={handleChange}
         />
+        <textarea
+          className="border border-gray-300 rounded-md px-4 py-2 w-80 mt-7 ml-2 h-14 align-top"
+          placeholder="Description"
+          value={task.description}
+          onChange={(e) => setTask({ ...task, description: e.target.value })}
+        />
         <button
           type="submit"
-          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-4 py-2 rounded-md ml-4"
+          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-md ml-4 h-14 w-28"
         >
           Create
         </button>

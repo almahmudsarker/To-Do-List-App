@@ -31,7 +31,10 @@ const Section = ({ status, tasks, setTasks, todos, doings, dones }) => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ status: newStatus }),
+        body: JSON.stringify({
+          status: newStatus,
+          description: tasks.description,
+        }),
       });
 
       toast.success("Task moved", { icon: "👍" });
